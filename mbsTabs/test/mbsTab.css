@@ -1,0 +1,91 @@
+/** Hata **/
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("https://fonts.googleapis.com/css?family=Signika+Negative:400,300");
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+mbsHata{
+    display: block;
+    margin: 4px;
+    height: 46px;
+    /*background: #cc3434;*/
+    background: #d35757;
+    color: #fcfcfc;
+    font-size: 14px;
+    border-radius: 4px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+    font-weight: 300;
+    font-family: 'Signika Negative', Roboto, sans-serif;
+}
+mbsHata div.sol{
+    float: left;
+    width: 80px;
+    height: 46px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.15);
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+mbsHata div.sol i {
+    font-size: 30px;
+    margin: 8px;
+}
+mbsHata div.sag{
+    float: left;
+    padding: 14px;
+    width: calc(100% - 108px);
+    font-size: 15px;
+    
+}
+/** TAB **/
+mbsTab{
+    display: block;
+}
+mbsTab g{
+    display: none;
+}
+mbsTab g.aktif{
+    display: inline-block;
+}
+/**** CSS *****/
+mbsTab{
+    font-family: 'Signika Negative', Roboto, sans-serif;
+}
+
+mbsTab div.butonlar{
+    display: block;
+    height: 40px;
+}
+mbsTab div.butonlar button{
+    float: left;
+    line-height: 38px;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    border: none;
+    background-color: #eff0f2;
+    border-bottom: 1px solid #fff;
+    color: #888;
+    font-weight: 500;
+    display: block;
+    letter-spacing: 0;
+    outline: none;
+    padding: 0 20px;
+    font-family: inherit;
+    text-decoration: none;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    border-bottom: 2px solid #87d3b7;
+    cursor: pointer;
+}
+mbsTab div.butonlar button.aktif{
+    color: #fff;
+    background: #87d3b7;
+}
+
+mbsTab g{
+    font-size: 14px;
+    width: calc(100% - 20px);
+    padding: 20px 10px;
+    background: #eff0f2;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+}
